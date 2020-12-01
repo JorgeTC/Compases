@@ -19,7 +19,7 @@ Base3(int n, bool list[64][2], int len)
          list[len - 1 - i][0] = true;
          list[len - 1 - i][1] = true;
          break;
-      case 2: // figura
+      case 2: // silencio
          list[len - 1 - i][0] = true;
          list[len - 1 - i][1] = false;
          break;
